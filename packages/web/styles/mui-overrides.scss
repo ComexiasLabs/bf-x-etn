@@ -1,0 +1,57 @@
+.muiAppBar {
+  // background-color: transparent !important;
+  background-color: #25253e !important;
+  // position: absolute !important;
+}
+
+.MuiBox-root {
+  position: relative !important;
+}
+
+.MuiTableCell-body {
+  a {
+    color: #7542d5;
+  }
+}
+
+.Mui-completed,
+.Mui-active {
+  color: #25253e !important;
+}
+
+.MuiTabs-indicator {
+  background-color: #25253e !important;
+}
+
+.Mui-selected {
+  color: #201626;
+}
+
+.MuiButton-outlinedPrimary {
+  border: 1px solid rgb(32, 22, 38, 0.5) !important;
+  color: #201626 !important;
+}
+
+.MuiButton-outlinedPrimary:hover {
+  background-color: rgba(32, 22, 38, 0.04) !important;
+  border: 1px solid #201626 !important;
+}
+
+.MuiButton-containedPrimary {
+  background-color: #614771 !important;
+  color: white !important;
+}
+
+.MuiButton-containedPrimary.Mui-disabled {
+  background-color: #acacac !important;
+  color: white !important;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #201626 !important;
+  color: white !important;
+}
+
+.Mui-selected {
+  color: #201626 !important;
+}

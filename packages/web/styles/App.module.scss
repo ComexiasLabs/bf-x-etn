@@ -1,0 +1,33 @@
+.container {
+}
+
+.main {
+  width: 100%;
+  background-color: #091417;
+}
+
+.subtitle {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+}
+
+.intro {
+  background-color: #091417;
+  height: 650px;
+}
+
+.introContainer {
+  text-align: center;
+  height: 100vh;
+  padding-top: 180px;
+
+  p {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+  }
+}
+
+.subtitle {
+  margin-top: 32px;
+}
