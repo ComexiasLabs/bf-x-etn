@@ -1,0 +1,25 @@
+.container {
+  margin-top: 32px;
+}
+
+.borderedBox {
+  border: 1px solid rgb(177 177 177 / 50%);
+  border-radius: 6px;
+  background-color: white;
+  margin-bottom: 16px;
+}
+
+.row {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid #000;
+  }
+
+  p {
+    color: #333;
+  }
+}
