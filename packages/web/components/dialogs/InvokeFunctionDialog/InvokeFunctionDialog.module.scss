@@ -1,0 +1,56 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 11px 15px -7px, rgba(0, 0, 0, 0.14) 0px 24px 38px 3px,
+    rgba(0, 0, 0, 0.12) 0px 9px 46px 8px;
+  padding: 32px;
+}
+
+.participants {
+  background-color: #f1f1f1;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+
+.titleWrapper {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+}
+
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: calc(100% - 48px);
+  font-size: 26px;
+}
+
+.renameButtonWrapper {
+  margin-left: 10px;
+}
+
+.iconImage {
+  padding-right: 8px;
+}
+
+.displayItem {
+  margin: 16px;
+
+  a {
+    color: #0d6efd;
+  }
+}
+
+.muted {
+  font-size: 13px;
+  color: #999;
+}
